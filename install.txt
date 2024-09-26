@@ -1,0 +1,4 @@
+charset,UTF-8
+type,shell
+name,Lollipop Tanktop
+directory,lollipop_tanktop_zi

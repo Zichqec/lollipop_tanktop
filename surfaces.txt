@@ -1,0 +1,666 @@
+descript
+{
+	version,1
+	
+	//satolist.palette.offset,70,40
+	//satolist.palette.frame,145,110
+	//satolist.palette.expand,0.75
+}
+
+//—————————————————————————————— Sakura surfaces ——————————————————————————————
+//Body base
+surface0-9,20-95,100-109,120-195,200-209,220-295,300-309,320-395,400-409,420-495
+{
+	element0,overlay,body.png,0,0
+	element1,overlay,tattoo.png,0,0
+}
+
+//Arm positions
+surface0-9,20-95
+{	
+	element2,overlay,arm/bite.png,0,0
+}
+
+surface100-109,120-195
+{	
+	element2,overlay,arm/close.png,0,0
+}
+
+surface200-209,220-295
+{	
+	element2,overlay,arm/up.png,0,0
+}
+
+surface300-309,320-395
+{	
+	element2,overlay,arm/splayed.png,0,0
+}
+
+surface400-409,420-495
+{	
+	element2,overlay,arm/down.png,0,0
+}
+
+surface4,6,104,106,204,206,304,306,404,406
+{
+	element3,overlay,eye/closed.png,0,0
+}
+
+surface9,109,209,309,409
+{
+	element3,overlay,eye/squeeze.png,0,0
+}
+
+//Eye positions
+surface0-8,!4,!6,100-108,!104,!106,200-208,!204,!206,300-308,!304,!306,400-408,!404,!406
+{
+	element3,overlay,eye/right.png,0,0
+}
+
+surface20-29,120-129,220-229,320-329,420-429
+{
+	element3,overlay,eye/left.png,0,0
+}
+
+surface30-39,130-139,230-239,330-339,430-439
+{
+	element3,overlay,eye/forward.png,0,0
+}
+
+surface40-49,140-149,240-249,340-349,440-449
+{
+	element3,overlay,eye/down.png,0,0
+}
+
+surface50-59,150-159,250-259,350-359,450-459
+{
+	element3,overlay,eye/up.png,0,0
+}
+
+surface60-69,160-169,260-269,360-369,460-469
+{
+	element3,overlay,eye/closed.png,0,0
+}
+
+surface70-79,170-179,270-279,370-379,470-479
+{
+	element3,overlay,eye/squeeze.png,0,0
+}
+
+//Mouth/brows - note that each expression has a pair, one with lollipop in mouth and one without, and the close arm ones have a third for the blush alt
+surface0,20,30,40,50,60,70
+{
+	element4,overlay,eyebrow/neutral.png,0,0
+	element5,overlay,mouth/full/neutral.png,0,0
+}
+
+surface100,120,130,140,150,160,170,200,220,230,240,250,260,270,300,320,330,340,350,360,370,400,420,430,440,450,460,470
+{
+	element4,overlay,eyebrow/neutral.png,0,0
+	element5,overlay,mouth/empty/neutral.png,0,0
+}
+
+surface1,21,31,41,51,61,71
+{
+	element4,overlay,eyebrow/down.png,0,0
+	element5,overlay,mouth/full/neutral.png,0,0
+	element6,overlay,extra/blush.png,0,0
+}
+
+surface101,121,131,141,151,161,171
+{
+	element4,overlay,eyebrow/down.png,0,0
+	element5,overlay,mouth/empty/neutral.png,0,0
+	element6,overlay,extra/blush_alt.png,0,0
+}
+
+surface201,221,231,241,251,261,271,301,321,331,341,351,361,371,401,421,431,441,451,461,471
+{
+	element4,overlay,eyebrow/down.png,0,0
+	element5,overlay,mouth/empty/neutral.png,0,0
+	element6,overlay,extra/blush.png,0,0
+}
+
+surface2,22,32,42,52,62,72
+{
+	element4,overlay,eyebrow/raised.png,0,0
+	element5,overlay,mouth/full/neutral.png,0,0
+}
+
+surface102,122,132,142,152,162,172,202,222,232,242,252,262,272,302,322,332,342,352,362,372,402,422,432,442,452,462,472
+{
+	element4,overlay,eyebrow/raised.png,0,0
+	element5,overlay,mouth/empty/neutral.png,0,0
+}
+
+surface3,23,33,43,53,63,73
+{
+	element4,overlay,eyebrow/down.png,0,0
+	element5,overlay,mouth/full/frown.png,0,0
+}
+
+surface103,123,133,143,153,163,173,203,223,233,243,253,263,273,303,323,333,343,353,363,373,403,423,433,443,453,463,473
+{
+	element4,overlay,eyebrow/down.png,0,0
+	element5,overlay,mouth/empty/frown.png,0,0
+}
+
+surface4
+{
+	element4,overlay,eyebrow/down.png,0,0
+	element5,overlay,mouth/full/frown.png,0,0
+}
+
+surface24,34,44,54,64,74
+{
+	element4,overlay,eyebrow/neutral.png,0,0
+	element5,overlay,mouth/full/frown.png,0,0
+}
+
+surface104,124,134,144,154,164,174,204,224,234,244,254,264,274,304,324,334,344,354,364,374,404,424,434,444,454,464,474
+{
+	element4,overlay,eyebrow/neutral.png,0,0
+	element5,overlay,mouth/empty/frown.png,0,0
+}
+
+surface5,25,35,45,55,65,75
+{
+	element4,overlay,eyebrow/raised.png,0,0
+	element5,overlay,mouth/full/smile.png,0,0
+}
+
+surface105,125,135,145,155,165,175,205,225,235,245,255,265,275,305,325,335,345,355,365,375,405,425,435,445,455,465,475
+{
+	element4,overlay,eyebrow/raised.png,0,0
+	element5,overlay,mouth/empty/smile.png,0,0
+}
+
+surface6,26,36,46,56,66,76
+{
+	element4,overlay,eyebrow/neutral.png,0,0
+	element5,overlay,mouth/full/smile.png,0,0
+}
+
+surface106,126,136,146,156,166,176,206,226,236,246,256,266,276,306,326,336,346,356,366,376,406,426,436,446,456,466,476
+{
+	element4,overlay,eyebrow/neutral.png,0,0
+	element5,overlay,mouth/empty/smile.png,0,0
+}
+
+surface7,27,37,47,57,67,77
+{
+	element4,overlay,eyebrow/furrowed.png,0,0
+	element5,overlay,mouth/full/frown.png,0,0
+}
+
+surface107,127,137,147,157,167,177,207,227,237,247,257,267,277,307,327,337,347,357,367,377,407,427,437,447,457,467,477
+{
+	element4,overlay,eyebrow/furrowed.png,0,0
+	element5,overlay,mouth/empty/frown.png,0,0
+}
+
+surface8,28,38,48,58,68,78
+{
+	element4,overlay,eyebrow/down.png,0,0
+	element5,overlay,mouth/full/smile.png,0,0
+	element6,overlay,extra/sweat.png,0,0
+}
+
+surface108,128,138,148,158,168,178,208,228,238,248,258,268,278,308,328,338,348,358,368,378,408,428,438,448,458,468,478
+{
+	element4,overlay,eyebrow/down.png,0,0
+	element5,overlay,mouth/empty/smile.png,0,0
+	element6,overlay,extra/sweat.png,0,0
+}
+
+surface9,29,39,49,59,69,79
+{
+	element4,overlay,eyebrow/furrowed.png,0,0
+	element5,overlay,mouth/full/frown.png,0,0
+	element6,overlay,extra/blush.png,0,0
+}
+
+surface109,129,139,149,159,169,179
+{
+	element4,overlay,eyebrow/furrowed.png,0,0
+	element5,overlay,mouth/empty/frown.png,0,0
+	element6,overlay,extra/blush_alt.png,0,0
+}
+
+surface209,229,239,249,259,269,279,309,329,339,349,359,369,379,409,429,439,449,459,469,479
+{
+	element4,overlay,eyebrow/furrowed.png,0,0
+	element5,overlay,mouth/empty/frown.png,0,0
+	element6,overlay,extra/blush.png,0,0
+}
+
+//unique expressions
+surface80
+{
+	element3,overlay,eye/right.png,0,0
+	element4,overlay,eyebrow/skeptical.png,0,0
+	element5,overlay,mouth/full/frown.png,0,0
+}
+
+surface180,280,380,480
+{
+	element3,overlay,eye/right.png,0,0
+	element4,overlay,eyebrow/skeptical.png,0,0
+	element5,overlay,mouth/empty/frown.png,0,0
+}
+
+surface81
+{
+	element3,overlay,eye/left.png,0,0
+	element4,overlay,eyebrow/skeptical.png,0,0
+	element5,overlay,mouth/full/frown.png,0,0
+}
+
+surface181,281,381,481
+{
+	element3,overlay,eye/left.png,0,0
+	element4,overlay,eyebrow/skeptical.png,0,0
+	element5,overlay,mouth/empty/frown.png,0,0
+}
+
+surface82
+{
+	element3,overlay,eye/forward.png,0,0
+	element4,overlay,eyebrow/skeptical.png,0,0
+	element5,overlay,mouth/full/frown.png,0,0
+}
+
+surface182,282,382,482
+{
+	element3,overlay,eye/forward.png,0,0
+	element4,overlay,eyebrow/skeptical.png,0,0
+	element5,overlay,mouth/empty/frown.png,0,0
+}
+
+surface83
+{
+	element3,overlay,eye/down.png,0,0
+	element4,overlay,eyebrow/skeptical.png,0,0
+	element5,overlay,mouth/full/frown.png,0,0
+}
+
+surface183,283,383,483
+{
+	element3,overlay,eye/down.png,0,0
+	element4,overlay,eyebrow/skeptical.png,0,0
+	element5,overlay,mouth/empty/frown.png,0,0
+}
+
+surface84
+{
+	element3,overlay,eye/up.png,0,0
+	element4,overlay,eyebrow/skeptical.png,0,0
+	element5,overlay,mouth/full/frown.png,0,0
+}
+
+surface184,284,384,484
+{
+	element3,overlay,eye/up.png,0,0
+	element4,overlay,eyebrow/skeptical.png,0,0
+	element5,overlay,mouth/empty/frown.png,0,0
+}
+
+surface85
+{
+	element3,overlay,eye/closed.png,0,0
+	element4,overlay,eyebrow/skeptical.png,0,0
+	element5,overlay,mouth/full/frown.png,0,0
+}
+
+surface185,285,385,485
+{
+	element3,overlay,eye/closed.png,0,0
+	element4,overlay,eyebrow/skeptical.png,0,0
+	element5,overlay,mouth/empty/frown.png,0,0
+}
+
+surface86
+{
+	element3,overlay,eye/closed.png,0,0
+	element4,overlay,eyebrow/down.png,0,0
+	element5,overlay,mouth/full/smile.png,0,0
+}
+
+surface186,286,386,486
+{
+	element3,overlay,eye/closed.png,0,0
+	element4,overlay,eyebrow/down.png,0,0
+	element5,overlay,mouth/empty/smile.png,0,0
+}
+
+surface87
+{
+	element3,overlay,eye/squeeze.png,0,0
+	element4,overlay,eyebrow/furrowed.png,0,0
+	element5,overlay,mouth/full/smile.png,0,0
+}
+
+surface187,287,387,487
+{
+	element3,overlay,eye/squeeze.png,0,0
+	element4,overlay,eyebrow/furrowed.png,0,0
+	element5,overlay,mouth/empty/smile.png,0,0
+}
+
+surface88
+{
+	element3,overlay,eye/down.png,0,0
+	element4,overlay,eyebrow/furrowed.png,0,0
+	element5,overlay,mouth/full/smile.png,0,0
+}
+
+surface188,288,388,488
+{
+	element3,overlay,eye/down.png,0,0
+	element4,overlay,eyebrow/furrowed.png,0,0
+	element5,overlay,mouth/empty/smile.png,0,0
+}
+
+surface89
+{
+	element3,overlay,eye/forward.png,0,0
+	element4,overlay,eyebrow/furrowed.png,0,0
+	element5,overlay,mouth/full/smile.png,0,0
+}
+
+surface189,289,389,489
+{
+	element3,overlay,eye/forward.png,0,0
+	element4,overlay,eyebrow/furrowed.png,0,0
+	element5,overlay,mouth/empty/smile.png,0,0
+}
+
+surface90
+{
+	element3,overlay,eye/right.png,0,0
+	element4,overlay,eyebrow/skeptical.png,0,0
+	element5,overlay,mouth/full/smile.png,0,0
+}
+
+surface190,290,390,490
+{
+	element3,overlay,eye/right.png,0,0
+	element4,overlay,eyebrow/skeptical.png,0,0
+	element5,overlay,mouth/empty/smile.png,0,0
+}
+
+surface91
+{
+	element3,overlay,eye/left.png,0,0
+	element4,overlay,eyebrow/skeptical.png,0,0
+	element5,overlay,mouth/full/smile.png,0,0
+}
+
+surface191,291,391,491
+{
+	element3,overlay,eye/left.png,0,0
+	element4,overlay,eyebrow/skeptical.png,0,0
+	element5,overlay,mouth/empty/smile.png,0,0
+}
+
+surface92
+{
+	element3,overlay,eye/forward.png,0,0
+	element4,overlay,eyebrow/skeptical.png,0,0
+	element5,overlay,mouth/full/smile.png,0,0
+}
+
+surface192,292,392,492
+{
+	element3,overlay,eye/forward.png,0,0
+	element4,overlay,eyebrow/skeptical.png,0,0
+	element5,overlay,mouth/empty/smile.png,0,0
+}
+
+surface93
+{
+	element3,overlay,eye/down.png,0,0
+	element4,overlay,eyebrow/skeptical.png,0,0
+	element5,overlay,mouth/full/smile.png,0,0
+}
+
+surface193,293,393,493
+{
+	element3,overlay,eye/down.png,0,0
+	element4,overlay,eyebrow/skeptical.png,0,0
+	element5,overlay,mouth/empty/smile.png,0,0
+}
+
+surface94
+{
+	element3,overlay,eye/up.png,0,0
+	element4,overlay,eyebrow/skeptical.png,0,0
+	element5,overlay,mouth/full/smile.png,0,0
+}
+
+surface194,294,394,494
+{
+	element3,overlay,eye/up.png,0,0
+	element4,overlay,eyebrow/skeptical.png,0,0
+	element5,overlay,mouth/empty/smile.png,0,0
+}
+
+surface95
+{
+	element3,overlay,eye/closed.png,0,0
+	element4,overlay,eyebrow/skeptical.png,0,0
+	element5,overlay,mouth/full/smile.png,0,0
+}
+
+surface195,295,395,495
+{
+	element3,overlay,eye/closed.png,0,0
+	element4,overlay,eyebrow/skeptical.png,0,0
+	element5,overlay,mouth/empty/smile.png,0,0
+}
+
+//blink
+surface.append0-1000,!10,!60-69,!160-169,!260-269,!360-369,!460-469,!70-79,!170-179,!270-279,!370-379,!470-479,!85-87,!185-187,!285-287,!385-387,!485-487,!95,!195,!295,!395,!495
+{
+	animation0.interval,random,4
+	animation0.pattern0,overlay,12000,0,0,0
+	animation0.pattern1,overlay,12001,75,0,0
+	animation0.pattern2,overlay,-1,50,0,0
+}
+
+//talk
+surface.append0-99,!10
+{
+	animation1.interval,talk,4
+	animation1.pattern0,alternativestart,(2,3,4)
+	animation1.option,shared-index
+	
+	animation2.interval,never
+	animation2.pattern0,overlay,13000,0,0,0
+	animation2.pattern1,overlay,-1,100,0,0
+	animation2.option,shared-index
+	
+	animation3.interval,never
+	animation3.pattern0,overlay,13000,0,0,0
+	animation3.pattern1,overlay,13001,75,0,0
+	animation3.pattern2,overlay,-1,100,0,0
+	animation3.option,shared-index
+	
+	animation4.interval,never
+	animation4.pattern0,overlay,13001,0,0,0
+	animation4.pattern1,overlay,13000,75,0,0
+	animation4.pattern2,overlay,-1,100,0,0
+	animation4.option,shared-index
+}
+
+surface.append100-1000
+{
+	animation1.interval,talk,4
+	animation1.pattern0,alternativestart,(2,3,4)
+	animation1.option,shared-index
+	
+	animation2.interval,never
+	animation2.pattern0,overlay,13010,0,0,0
+	animation2.pattern1,overlay,-1,100,0,0
+	animation2.option,shared-index
+	
+	animation3.interval,never
+	animation3.pattern0,overlay,13010,0,0,0
+	animation3.pattern1,overlay,13011,75,0,0
+	animation3.pattern2,overlay,-1,100,0,0
+	animation3.option,shared-index
+	
+	animation4.interval,never
+	animation4.pattern0,overlay,13011,0,0,0
+	animation4.pattern1,overlay,13010,75,0,0
+	animation4.pattern2,overlay,-1,100,0,0
+	animation4.option,shared-index
+}
+
+//blush reg
+surface.append0-99,!10,200-500
+{
+	animation11.interval,never
+	animation11.pattern0,overlay,11000,0,0,0
+	
+	collisionex3,Lollipop,region,collision/main.png,130,130,130
+}
+
+//blush alt
+surface.append100-199
+{
+	animation11.interval,never
+	animation11.pattern0,overlay,11001,0,0,0
+	
+	collisionex3,Lollipop,region,collision/alt.png,130,130,130
+}
+
+surface.append0-1000,!10
+{
+	//collisions
+	collisionex0,Head,region,collision/main.png,171,171,171
+	collisionex1,Face,region,collision/main.png,222,222,222
+	collisionex2,Tattoo,region,collision/main.png,66,66,66
+	
+	
+	//stop talking animation, for narration, etc.
+	animation10.interval,never
+	animation10.pattern0,stop,1
+	
+	//Sweat
+	animation12.interval,never
+	animation12.pattern0,overlay,11002,0,0,0
+	
+	//Leg back and forth loop
+	animation10000.interval,always
+	animation10000.pattern0,overlay,10001,0,0,0
+	animation10000.pattern2,overlay,10002,300,0,0
+	animation10000.pattern3,overlay,10001,500,0,0
+	animation10000.pattern4,overlay,10000,300,0,0
+	animation10000.pattern5,overlay,10000,500,0,0
+	animation10000.option,shared-index
+	
+	//Random leg kick - adjust random amount to taste
+	animation10001.interval,random,10
+	animation10001.pattern0 ,overlay,10001,0,0,0
+	animation10001.pattern1 ,stop,10000
+	animation10001.pattern3 ,overlay,10001,100,0,0
+	animation10001.pattern4 ,overlay,10002,100,0,0
+	animation10001.pattern5 ,overlay,10003,100,0,0
+	animation10001.pattern6 ,overlay,10004,100,0,0
+	animation10001.pattern7 ,overlay,10005,100,0,0
+	animation10001.pattern8 ,overlay,10004,200,0,0
+	animation10001.pattern9 ,overlay,10003,100,0,0
+	animation10001.pattern10,overlay,10002,100,0,0
+	animation10001.pattern11,overlay,10001,100,0,0
+	animation10001.pattern12,overlay,10000,100,0,0
+	animation10001.pattern13,overlay,10001,200,0,0
+	animation10001.pattern14,overlay,10001,100,0,0
+	animation10001.pattern15,start,10000
+	animation10001.pattern16,overlay,-1,0,0,0
+	animation10001.option,shared-index
+}
+
+surface10000
+{
+	element0,overlay,leg/00.png,0,0
+}
+
+surface10001
+{
+	element0,overlay,leg/01.png,0,0
+}
+
+surface10002
+{
+	element0,overlay,leg/02.png,0,0
+}
+
+surface10003
+{
+	element0,overlay,leg/03.png,0,0
+}
+
+surface10004
+{
+	element0,overlay,leg/04.png,0,0
+}
+
+surface10005
+{
+	element0,overlay,leg/05.png,0,0
+}
+
+surface11000
+{
+	element0,overlay,extra/blush.png,0,0
+}
+
+surface11001
+{
+	element0,overlay,extra/blush_alt.png,0,0
+}
+
+surface11002
+{
+	element0,overlay,extra/sweat.png,0,0
+}
+
+surface12000
+{
+	element0,overlay,eye/closed.png,0,0
+}
+
+surface12001
+{
+	element0,overlay,eye/blink.png,0,0
+}
+
+surface13000
+{
+	element0,overlay,mouth/full/talk1.png,0,0
+}
+
+surface13001
+{
+	element0,overlay,mouth/full/talk2.png,0,0
+}
+
+surface13010
+{
+	element0,overlay,mouth/empty/talk1.png,0,0
+}
+
+surface13011
+{
+	element0,overlay,mouth/empty/talk2.png,0,0
+}
+
+surface10
+{
+}
+
+surface.append10,10000-10005,11000-11002,12000-12001,13000-13001,13010,13011
+{
+	//satolist.palette.visible,0
+}

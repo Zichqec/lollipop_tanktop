@@ -1,0 +1,533 @@
+charset,UTF-8
+version,1
+option,DisableNoDefineSurfaces
+
+group,__disabled
+{
+	10,
+	
+	10000,__parts
+	10001,__parts
+	10002,__parts
+	10003,__parts
+	10004,__parts
+	10005,__parts
+	
+	11000,__parts
+	11001,__parts
+	11002,__parts
+	
+	12000,__parts
+	12001,__parts
+	
+	13000,__parts
+	13001,__parts
+	
+	13010,__parts
+	13011,__parts
+}
+
+group,Bite
+{
+	scope,0
+	
+	0,R - Normal
+	1,R - Embarrased
+	2,R - Surprised
+	3,R - Anxious
+	4,R - Discouraged
+	5,R - Smile
+	6,R - Relaxed
+	7,R - Angry
+	8,R - Cold smile
+	9,R - Embarrased anger
+	
+	20,L - Normal
+	21,L - Embarrased
+	22,L - Surprised
+	23,L - Anxious
+	24,L - Discouraged
+	25,L - Smile
+	26,L - Relaxed
+	27,L - Angry
+	28,L - Cold smile
+	29,L - Embarrased anger
+	
+	30,F - Normal
+	31,F - Embarrased
+	32,F - Surprised
+	33,F - Anxious
+	34,F - Discouraged
+	35,F - Smile
+	36,F - Relaxed
+	37,F - Angry
+	38,F - Cold smile
+	39,F - Embarrased anger
+	
+	40,D - Normal
+	41,D - Embarrased
+	42,D - Surprised
+	43,D - Anxious
+	44,D - Discouraged
+	45,D - Smile
+	46,D - Relaxed
+	47,D - Angry
+	48,D - Cold smile
+	49,D - Embarrased anger
+	
+	50,U - Normal
+	51,U - Embarrased
+	52,U - Surprised
+	53,U - Anxious
+	54,U - Discouraged
+	55,U - Smile
+	56,U - Relaxed
+	57,U - Angry
+	58,U - Cold smile
+	59,U - Embarrased anger
+	
+	60,C - Normal
+	61,C - Embarrased
+	62,C - Surprised
+	63,C - Anxious
+	64,C - Discouraged
+	65,C - Smile
+	66,C - Relaxed
+	67,C - Angry
+	68,C - Cold smile
+	69,C - Embarrased anger
+	
+	70,>< - Normal
+	71,>< - Embarrased
+	72,>< - Surprised
+	73,>< - Anxious
+	74,>< - Discouraged
+	75,>< - Smile
+	76,>< - Relaxed
+	77,>< - Angry
+	78,>< - Cold smile
+	79,>< - Embarrased anger
+	
+	80,Skeptical - R
+	81,Skeptical - L
+	82,Skeptical - F
+	83,Skeptical - D
+	84,Skeptical - U
+	85,Skeptical - C
+	
+	86,Reminiscing
+	87,Proud
+	88,Confident
+	89,Determined
+	
+	90,Challenging - R
+	91,Challenging - L
+	92,Challenging - F
+	93,Challenging - D
+	94,Challenging - U
+	95,Challenging - C
+}
+
+group,Close
+{
+	scope,0
+	
+	100,R - Normal
+	101,R - Embarrased
+	102,R - Surprised
+	103,R - Anxious
+	104,R - Discouraged
+	105,R - Smile
+	106,R - Relaxed
+	107,R - Angry
+	108,R - Cold smile
+	109,R - Embarrased anger
+	
+	120,L - Normal
+	121,L - Embarrased
+	122,L - Surprised
+	123,L - Anxious
+	124,L - Discouraged
+	125,L - Smile
+	126,L - Relaxed
+	127,L - Angry
+	128,L - Cold smile
+	129,L - Embarrased anger
+	
+	130,F - Normal
+	131,F - Embarrased
+	132,F - Surprised
+	133,F - Anxious
+	134,F - Discouraged
+	135,F - Smile
+	136,F - Relaxed
+	137,F - Angry
+	138,F - Cold smile
+	139,F - Embarrased anger
+	
+	140,D - Normal
+	141,D - Embarrased
+	142,D - Surprised
+	143,D - Anxious
+	144,D - Discouraged
+	145,D - Smile
+	146,D - Relaxed
+	147,D - Angry
+	148,D - Cold smile
+	149,D - Embarrased anger
+	
+	150,U - Normal
+	151,U - Embarrased
+	152,U - Surprised
+	153,U - Anxious
+	154,U - Discouraged
+	155,U - Smile
+	156,U - Relaxed
+	157,U - Angry
+	158,U - Cold smile
+	159,U - Embarrased anger
+	
+	160,C - Normal
+	161,C - Embarrased
+	162,C - Surprised
+	163,C - Anxious
+	164,C - Discouraged
+	165,C - Smile
+	166,C - Relaxed
+	167,C - Angry
+	168,C - Cold smile
+	169,C - Embarrased anger
+	
+	170,>< - Normal
+	171,>< - Embarrased
+	172,>< - Surprised
+	173,>< - Anxious
+	174,>< - Discouraged
+	175,>< - Smile
+	176,>< - Relaxed
+	177,>< - Angry
+	178,>< - Cold smile
+	179,>< - Embarrased anger
+	
+	180,Skeptical - R
+	181,Skeptical - L
+	182,Skeptical - F
+	183,Skeptical - D
+	184,Skeptical - U
+	185,Skeptical - C
+	
+	186,Reminiscing
+	187,Proud
+	188,Confident
+	189,Determined
+	
+	190,Challenging - R
+	191,Challenging - L
+	192,Challenging - F
+	193,Challenging - D
+	194,Challenging - U
+	195,Challenging - C
+}
+
+group,Up
+{
+	scope,0
+	
+	200,R - Normal
+	201,R - Embarrased
+	202,R - Surprised
+	203,R - Anxious
+	204,R - Discouraged
+	205,R - Smile
+	206,R - Relaxed
+	207,R - Angry
+	208,R - Cold smile
+	209,R - Embarrased anger
+	
+	220,L - Normal
+	221,L - Embarrased
+	222,L - Surprised
+	223,L - Anxious
+	224,L - Discouraged
+	225,L - Smile
+	226,L - Relaxed
+	227,L - Angry
+	228,L - Cold smile
+	229,L - Embarrased anger
+	
+	230,F - Normal
+	231,F - Embarrased
+	232,F - Surprised
+	233,F - Anxious
+	234,F - Discouraged
+	235,F - Smile
+	236,F - Relaxed
+	237,F - Angry
+	238,F - Cold smile
+	239,F - Embarrased anger
+	
+	240,D - Normal
+	241,D - Embarrased
+	242,D - Surprised
+	243,D - Anxious
+	244,D - Discouraged
+	245,D - Smile
+	246,D - Relaxed
+	247,D - Angry
+	248,D - Cold smile
+	249,D - Embarrased anger
+	
+	250,U - Normal
+	251,U - Embarrased
+	252,U - Surprised
+	253,U - Anxious
+	254,U - Discouraged
+	255,U - Smile
+	256,U - Relaxed
+	257,U - Angry
+	258,U - Cold smile
+	259,U - Embarrased anger
+	
+	260,C - Normal
+	261,C - Embarrased
+	262,C - Surprised
+	263,C - Anxious
+	264,C - Discouraged
+	265,C - Smile
+	266,C - Relaxed
+	267,C - Angry
+	268,C - Cold smile
+	269,C - Embarrased anger
+	
+	270,>< - Normal
+	271,>< - Embarrased
+	272,>< - Surprised
+	273,>< - Anxious
+	274,>< - Discouraged
+	275,>< - Smile
+	276,>< - Relaxed
+	277,>< - Angry
+	278,>< - Cold smile
+	279,>< - Embarrased anger
+	
+	280,Skeptical - R
+	281,Skeptical - L
+	282,Skeptical - F
+	283,Skeptical - D
+	284,Skeptical - U
+	285,Skeptical - C
+	
+	286,Reminiscing
+	287,Proud
+	288,Confident
+	289,Determined
+	
+	290,Challenging - R
+	291,Challenging - L
+	292,Challenging - F
+	293,Challenging - D
+	294,Challenging - U
+	295,Challenging - C
+}
+
+group,Splayed
+{
+	scope,0
+	
+	300,R - Normal
+	301,R - Embarrased
+	302,R - Surprised
+	303,R - Anxious
+	304,R - Discouraged
+	305,R - Smile
+	306,R - Relaxed
+	307,R - Angry
+	308,R - Cold smile
+	309,R - Embarrased anger
+	
+	320,L - Normal
+	321,L - Embarrased
+	322,L - Surprised
+	323,L - Anxious
+	324,L - Discouraged
+	325,L - Smile
+	326,L - Relaxed
+	327,L - Angry
+	328,L - Cold smile
+	329,L - Embarrased anger
+	
+	330,F - Normal
+	331,F - Embarrased
+	332,F - Surprised
+	333,F - Anxious
+	334,F - Discouraged
+	335,F - Smile
+	336,F - Relaxed
+	337,F - Angry
+	338,F - Cold smile
+	339,F - Embarrased anger
+	
+	340,D - Normal
+	341,D - Embarrased
+	342,D - Surprised
+	343,D - Anxious
+	344,D - Discouraged
+	345,D - Smile
+	346,D - Relaxed
+	347,D - Angry
+	348,D - Cold smile
+	349,D - Embarrased anger
+	
+	350,U - Normal
+	351,U - Embarrased
+	352,U - Surprised
+	353,U - Anxious
+	354,U - Discouraged
+	355,U - Smile
+	356,U - Relaxed
+	357,U - Angry
+	358,U - Cold smile
+	359,U - Embarrased anger
+	
+	360,C - Normal
+	361,C - Embarrased
+	362,C - Surprised
+	363,C - Anxious
+	364,C - Discouraged
+	365,C - Smile
+	366,C - Relaxed
+	367,C - Angry
+	368,C - Cold smile
+	369,C - Embarrased anger
+	
+	370,>< - Normal
+	371,>< - Embarrased
+	372,>< - Surprised
+	373,>< - Anxious
+	374,>< - Discouraged
+	375,>< - Smile
+	376,>< - Relaxed
+	377,>< - Angry
+	378,>< - Cold smile
+	379,>< - Embarrased anger
+	
+	380,Skeptical - R
+	381,Skeptical - L
+	382,Skeptical - F
+	383,Skeptical - D
+	384,Skeptical - U
+	385,Skeptical - C
+	
+	386,Reminiscing
+	387,Proud
+	388,Confident
+	389,Determined
+	
+	390,Challenging - R
+	391,Challenging - L
+	392,Challenging - F
+	393,Challenging - D
+	394,Challenging - U
+	395,Challenging - C
+}
+
+group,Down
+{
+	scope,0
+	
+	400,R - Normal
+	401,R - Embarrased
+	402,R - Surprised
+	403,R - Anxious
+	404,R - Discouraged
+	405,R - Smile
+	406,R - Relaxed
+	407,R - Angry
+	408,R - Cold smile
+	409,R - Embarrased anger
+	
+	420,L - Normal
+	421,L - Embarrased
+	422,L - Surprised
+	423,L - Anxious
+	424,L - Discouraged
+	425,L - Smile
+	426,L - Relaxed
+	427,L - Angry
+	428,L - Cold smile
+	429,L - Embarrased anger
+	
+	430,F - Normal
+	431,F - Embarrased
+	432,F - Surprised
+	433,F - Anxious
+	434,F - Discouraged
+	435,F - Smile
+	436,F - Relaxed
+	437,F - Angry
+	438,F - Cold smile
+	439,F - Embarrased anger
+	
+	440,D - Normal
+	441,D - Embarrased
+	442,D - Surprised
+	443,D - Anxious
+	444,D - Discouraged
+	445,D - Smile
+	446,D - Relaxed
+	447,D - Angry
+	448,D - Cold smile
+	449,D - Embarrased anger
+	
+	450,U - Normal
+	451,U - Embarrased
+	452,U - Surprised
+	453,U - Anxious
+	454,U - Discouraged
+	455,U - Smile
+	456,U - Relaxed
+	457,U - Angry
+	458,U - Cold smile
+	459,U - Embarrased anger
+	
+	460,C - Normal
+	461,C - Embarrased
+	462,C - Surprised
+	463,C - Anxious
+	464,C - Discouraged
+	465,C - Smile
+	466,C - Relaxed
+	467,C - Angry
+	468,C - Cold smile
+	469,C - Embarrased anger
+	
+	470,>< - Normal
+	471,>< - Embarrased
+	472,>< - Surprised
+	473,>< - Anxious
+	474,>< - Discouraged
+	475,>< - Smile
+	476,>< - Relaxed
+	477,>< - Angry
+	478,>< - Cold smile
+	479,>< - Embarrased anger
+	
+	480,Skeptical - R
+	481,Skeptical - L
+	482,Skeptical - F
+	483,Skeptical - D
+	484,Skeptical - U
+	485,Skeptical - C
+	
+	486,Reminiscing
+	487,Proud
+	488,Confident
+	489,Determined
+	
+	490,Challenging - R
+	491,Challenging - L
+	492,Challenging - F
+	493,Challenging - D
+	494,Challenging - U
+	495,Challenging - C
+}

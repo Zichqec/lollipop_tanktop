@@ -1,0 +1,10 @@
+charset,UTF-8
+type,shell
+
+name,Lollipop Tanktop
+craftman,Zichqec
+craftmanw,Zichqec
+craftmanurl,https://ukagaka.zichqec.com/
+
+seriko.use_self_alpha,1
+seriko.alignmenttodesktop,free
