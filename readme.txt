@@ -44,7 +44,7 @@ In addition, there are alternate eyes and arms that can be controlled by adding 
 	00 - Eyes looking right
 	20 - Eyes looking left
 	30 - Eyes looking forward/at the user
-	40 - Eyes looking fown
+	40 - Eyes looking down
 	50 - Eyes looking up/rolling
 	60 - Eyes closed
 	70 - Eyes squeezed shut
