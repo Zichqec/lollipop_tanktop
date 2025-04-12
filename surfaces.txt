@@ -145,21 +145,15 @@ surface103,123,133,143,153,163,173,203,223,233,243,253,263,273,303,323,333,343,3
 	element5,overlay,mouth/empty/frown.png,0,0
 }
 
-surface4
+surface4,24,34,44,54,64,74
 {
 	element4,overlay,eyebrow/down.png,0,0
 	element5,overlay,mouth/full/frown.png,0,0
 }
 
-surface24,34,44,54,64,74
-{
-	element4,overlay,eyebrow/neutral.png,0,0
-	element5,overlay,mouth/full/frown.png,0,0
-}
-
 surface104,124,134,144,154,164,174,204,224,234,244,254,264,274,304,324,334,344,354,364,374,404,424,434,444,454,464,474
 {
-	element4,overlay,eyebrow/neutral.png,0,0
+	element4,overlay,eyebrow/down.png,0,0
 	element5,overlay,mouth/empty/frown.png,0,0
 }
 
