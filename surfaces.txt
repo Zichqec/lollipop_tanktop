@@ -544,6 +544,7 @@ surface.append0-1000,!10
 	
 	
 	//stop talking animation, for narration, etc.
+	//Note that \![set,serikotalk,false] can now handle this function on the baseware side
 	animation10.interval,never
 	animation10.pattern0,stop,1
 	
