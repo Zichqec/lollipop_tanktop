@@ -1,4 +1,4 @@
-Freeshell "Lollipop Tanktop" v1.0.1
+Freeshell "Lollipop Tanktop" v1.0.2
 
 —————————— Terms ——————————
 This freeshell is free to use for your own ghost projects, with the following terms.
