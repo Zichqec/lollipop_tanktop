@@ -39,7 +39,7 @@ group,Bite
 	5,R - Smile
 	6,R - Relaxed
 	7,R - Angry
-	8,R - Cold smile
+	8,R - Sweat smile
 	9,R - Embarrased anger
 	
 	20,L - Normal
@@ -50,7 +50,7 @@ group,Bite
 	25,L - Smile
 	26,L - Relaxed
 	27,L - Angry
-	28,L - Cold smile
+	28,L - Sweat smile
 	29,L - Embarrased anger
 	
 	30,F - Normal
@@ -61,7 +61,7 @@ group,Bite
 	35,F - Smile
 	36,F - Relaxed
 	37,F - Angry
-	38,F - Cold smile
+	38,F - Sweat smile
 	39,F - Embarrased anger
 	
 	40,D - Normal
@@ -72,7 +72,7 @@ group,Bite
 	45,D - Smile
 	46,D - Relaxed
 	47,D - Angry
-	48,D - Cold smile
+	48,D - Sweat smile
 	49,D - Embarrased anger
 	
 	50,U - Normal
@@ -83,7 +83,7 @@ group,Bite
 	55,U - Smile
 	56,U - Relaxed
 	57,U - Angry
-	58,U - Cold smile
+	58,U - Sweat smile
 	59,U - Embarrased anger
 	
 	60,C - Normal
@@ -94,7 +94,7 @@ group,Bite
 	65,C - Smile
 	66,C - Relaxed
 	67,C - Angry
-	68,C - Cold smile
+	68,C - Sweat smile
 	69,C - Embarrased anger
 	
 	70,>< - Normal
@@ -105,7 +105,7 @@ group,Bite
 	75,>< - Smile
 	76,>< - Relaxed
 	77,>< - Angry
-	78,>< - Cold smile
+	78,>< - Sweat smile
 	79,>< - Embarrased anger
 	
 	80,Skeptical - R
@@ -140,7 +140,7 @@ group,Close
 	105,R - Smile
 	106,R - Relaxed
 	107,R - Angry
-	108,R - Cold smile
+	108,R - Sweat smile
 	109,R - Embarrased anger
 	
 	120,L - Normal
@@ -151,7 +151,7 @@ group,Close
 	125,L - Smile
 	126,L - Relaxed
 	127,L - Angry
-	128,L - Cold smile
+	128,L - Sweat smile
 	129,L - Embarrased anger
 	
 	130,F - Normal
@@ -162,7 +162,7 @@ group,Close
 	135,F - Smile
 	136,F - Relaxed
 	137,F - Angry
-	138,F - Cold smile
+	138,F - Sweat smile
 	139,F - Embarrased anger
 	
 	140,D - Normal
@@ -173,7 +173,7 @@ group,Close
 	145,D - Smile
 	146,D - Relaxed
 	147,D - Angry
-	148,D - Cold smile
+	148,D - Sweat smile
 	149,D - Embarrased anger
 	
 	150,U - Normal
@@ -184,7 +184,7 @@ group,Close
 	155,U - Smile
 	156,U - Relaxed
 	157,U - Angry
-	158,U - Cold smile
+	158,U - Sweat smile
 	159,U - Embarrased anger
 	
 	160,C - Normal
@@ -195,7 +195,7 @@ group,Close
 	165,C - Smile
 	166,C - Relaxed
 	167,C - Angry
-	168,C - Cold smile
+	168,C - Sweat smile
 	169,C - Embarrased anger
 	
 	170,>< - Normal
@@ -206,7 +206,7 @@ group,Close
 	175,>< - Smile
 	176,>< - Relaxed
 	177,>< - Angry
-	178,>< - Cold smile
+	178,>< - Sweat smile
 	179,>< - Embarrased anger
 	
 	180,Skeptical - R
@@ -241,7 +241,7 @@ group,Up
 	205,R - Smile
 	206,R - Relaxed
 	207,R - Angry
-	208,R - Cold smile
+	208,R - Sweat smile
 	209,R - Embarrased anger
 	
 	220,L - Normal
@@ -252,7 +252,7 @@ group,Up
 	225,L - Smile
 	226,L - Relaxed
 	227,L - Angry
-	228,L - Cold smile
+	228,L - Sweat smile
 	229,L - Embarrased anger
 	
 	230,F - Normal
@@ -263,7 +263,7 @@ group,Up
 	235,F - Smile
 	236,F - Relaxed
 	237,F - Angry
-	238,F - Cold smile
+	238,F - Sweat smile
 	239,F - Embarrased anger
 	
 	240,D - Normal
@@ -274,7 +274,7 @@ group,Up
 	245,D - Smile
 	246,D - Relaxed
 	247,D - Angry
-	248,D - Cold smile
+	248,D - Sweat smile
 	249,D - Embarrased anger
 	
 	250,U - Normal
@@ -285,7 +285,7 @@ group,Up
 	255,U - Smile
 	256,U - Relaxed
 	257,U - Angry
-	258,U - Cold smile
+	258,U - Sweat smile
 	259,U - Embarrased anger
 	
 	260,C - Normal
@@ -296,7 +296,7 @@ group,Up
 	265,C - Smile
 	266,C - Relaxed
 	267,C - Angry
-	268,C - Cold smile
+	268,C - Sweat smile
 	269,C - Embarrased anger
 	
 	270,>< - Normal
@@ -307,7 +307,7 @@ group,Up
 	275,>< - Smile
 	276,>< - Relaxed
 	277,>< - Angry
-	278,>< - Cold smile
+	278,>< - Sweat smile
 	279,>< - Embarrased anger
 	
 	280,Skeptical - R
@@ -342,7 +342,7 @@ group,Splayed
 	305,R - Smile
 	306,R - Relaxed
 	307,R - Angry
-	308,R - Cold smile
+	308,R - Sweat smile
 	309,R - Embarrased anger
 	
 	320,L - Normal
@@ -353,7 +353,7 @@ group,Splayed
 	325,L - Smile
 	326,L - Relaxed
 	327,L - Angry
-	328,L - Cold smile
+	328,L - Sweat smile
 	329,L - Embarrased anger
 	
 	330,F - Normal
@@ -364,7 +364,7 @@ group,Splayed
 	335,F - Smile
 	336,F - Relaxed
 	337,F - Angry
-	338,F - Cold smile
+	338,F - Sweat smile
 	339,F - Embarrased anger
 	
 	340,D - Normal
@@ -375,7 +375,7 @@ group,Splayed
 	345,D - Smile
 	346,D - Relaxed
 	347,D - Angry
-	348,D - Cold smile
+	348,D - Sweat smile
 	349,D - Embarrased anger
 	
 	350,U - Normal
@@ -386,7 +386,7 @@ group,Splayed
 	355,U - Smile
 	356,U - Relaxed
 	357,U - Angry
-	358,U - Cold smile
+	358,U - Sweat smile
 	359,U - Embarrased anger
 	
 	360,C - Normal
@@ -397,7 +397,7 @@ group,Splayed
 	365,C - Smile
 	366,C - Relaxed
 	367,C - Angry
-	368,C - Cold smile
+	368,C - Sweat smile
 	369,C - Embarrased anger
 	
 	370,>< - Normal
@@ -408,7 +408,7 @@ group,Splayed
 	375,>< - Smile
 	376,>< - Relaxed
 	377,>< - Angry
-	378,>< - Cold smile
+	378,>< - Sweat smile
 	379,>< - Embarrased anger
 	
 	380,Skeptical - R
@@ -443,7 +443,7 @@ group,Down
 	405,R - Smile
 	406,R - Relaxed
 	407,R - Angry
-	408,R - Cold smile
+	408,R - Sweat smile
 	409,R - Embarrased anger
 	
 	420,L - Normal
@@ -454,7 +454,7 @@ group,Down
 	425,L - Smile
 	426,L - Relaxed
 	427,L - Angry
-	428,L - Cold smile
+	428,L - Sweat smile
 	429,L - Embarrased anger
 	
 	430,F - Normal
@@ -465,7 +465,7 @@ group,Down
 	435,F - Smile
 	436,F - Relaxed
 	437,F - Angry
-	438,F - Cold smile
+	438,F - Sweat smile
 	439,F - Embarrased anger
 	
 	440,D - Normal
@@ -476,7 +476,7 @@ group,Down
 	445,D - Smile
 	446,D - Relaxed
 	447,D - Angry
-	448,D - Cold smile
+	448,D - Sweat smile
 	449,D - Embarrased anger
 	
 	450,U - Normal
@@ -487,7 +487,7 @@ group,Down
 	455,U - Smile
 	456,U - Relaxed
 	457,U - Angry
-	458,U - Cold smile
+	458,U - Sweat smile
 	459,U - Embarrased anger
 	
 	460,C - Normal
@@ -498,7 +498,7 @@ group,Down
 	465,C - Smile
 	466,C - Relaxed
 	467,C - Angry
-	468,C - Cold smile
+	468,C - Sweat smile
 	469,C - Embarrased anger
 	
 	470,>< - Normal
@@ -509,7 +509,7 @@ group,Down
 	475,>< - Smile
 	476,>< - Relaxed
 	477,>< - Angry
-	478,>< - Cold smile
+	478,>< - Sweat smile
 	479,>< - Embarrased anger
 	
 	480,Skeptical - R
