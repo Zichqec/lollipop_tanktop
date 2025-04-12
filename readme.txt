@@ -5,11 +5,12 @@ This freeshell is free to use for your own ghost projects, with the following te
 
 You must:
 	• Mention in your ghost's readme that you are using my freeshell. I can be credited as "Zichqec", with the following link: https://ukagaka.zichqec.com/
-	• Keep this readme file as-is.
+	• Keep this readme file as-is. (Exception: the file can be renamed if needed, such as if combining this shell with another freeshell.)
 	
 You may:
-	• Modify the shell, including recoloring, drawing new expressions, combining expressions, etc.
+	• Modify the shell, including recoloring, drawing new expressions, combining expressions, scaling the images, mirroring the images, etc. (If the shell is drawn in a pixel style, please take care when scaling. They'll look best if you keep the pixels sharp!)
 	• Modify the settings files in any way you need.
+	• Combine this shell with other freeshells.
 	• Use this shell to create a thumbnail image for your ghost, or a preview image for use on the ghost's release page, etc.
 	
 You must not:
@@ -18,6 +19,7 @@ You must not:
 	• Use this shell for works outside the realm of ukagaka.
 	• Modify the shell to be discriminatory or political, or use it in a work that contains these elements.
 	• Modify the shell to add nudity or sexual elements.
+	• Use AI tools to modify the artwork in this shell.
 
 It is not required to notify me that you have used this shell, but I'd love to see what you've made!
 
